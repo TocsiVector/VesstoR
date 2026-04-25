@@ -1,24 +1,32 @@
-# 🚀 VesstoR PRO
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FF9C&size=35&center=true&vCenter=true&width=900&lines=VesstoR+PRO+v7.0.0;Advanced+Directory+Scanner;Fast+%7C+Accurate+%7C+Automated" />
+</p>
 
-![Python](https://img.shields.io/badge/Language-Python-blue)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-green)
-![Version](https://img.shields.io/badge/Version-7.0.0-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+<h1 align="center">🚀 VesstoR PRO</h1>
 
-> ⚡ Advanced Professional Directory Scanner for Security Testing
+<p align="center">
+Advanced Professional Directory Scanner for Web Reconnaissance & Security Testing
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python-blue"/>
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-green"/>
+  <img src="https://img.shields.io/badge/Version-7.0.0-red"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow"/>
+</p>
 
 ---
 
 ## 🧠 Overview
 
-VesstoR PRO is a **high-performance directory and endpoint discovery tool** built for:
+VesstoR PRO is a **high-performance directory and endpoint discovery tool** designed for:
 
 * Web reconnaissance
 * Hidden path discovery
-* Security testing
 * Bug bounty workflows
+* Security testing
 
-It supports multiple scan modes, automation, and structured output for faster analysis.
+It combines speed, automation, and structured output to streamline reconnaissance tasks.
 
 ---
 
@@ -36,7 +44,7 @@ It supports multiple scan modes, automation, and structured output for faster an
 
 ## ⚙️ Installation
 
-```bash id="ves1"
+```bash id="a1"
 git clone https://github.com/TocsiVector/VesstoR.git
 cd VesstoR
 pip install -r requirements.txt
@@ -48,25 +56,25 @@ pip install -r requirements.txt
 
 ### Basic Scan
 
-```bash id="ves2"
+```bash id="a2"
 python vesstor.py -u https://target.com
 ```
 
 ### Quick Scan
 
-```bash id="ves3"
+```bash id="a3"
 python vesstor.py -u target.com --quick
 ```
 
 ### Deep Scan
 
-```bash id="ves4"
+```bash id="a4"
 python vesstor.py -u target.com --deep
 ```
 
 ### Custom Threads
 
-```bash id="ves5"
+```bash id="a5"
 python vesstor.py -u target.com -t 20
 ```
 
@@ -74,15 +82,15 @@ python vesstor.py -u target.com -t 20
 
 ## 📊 Output
 
-Results are automatically saved in:
+Results are automatically stored in:
 
-```
+```id="a6"
 VesstoR_Results/
 ```
 
 ### Formats:
 
-* JSON (structured data with metadata)
+* JSON (structured metadata)
 * TXT (raw discovered URLs)
 
 ---
@@ -126,3 +134,9 @@ If you find this useful, give it a ⭐ on GitHub.
 
 This tool is intended for **authorized security testing only**.
 Do not use on systems without permission.
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF9C,100:007CF0&height=120&section=footer"/>
+</p>
